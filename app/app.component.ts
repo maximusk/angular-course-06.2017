@@ -8,4 +8,23 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   name = 'Angular';
+  text = 'not clicked yet';
+  updated: number;
+  result: number;
+
+  updateDiv(event) {
+    this.text = 'Span was clicked!';
+  }
+
+  processOutput(value) {
+
+  }
+
+  changed(event) {
+    this.updated = parseInt(event.target.value);
+  }
+
+  updateNumber(value) {
+    this.result = value;
+  }
 }
