@@ -1,7 +1,6 @@
 
-Angular seed
+Angular courses supporting code
 ============
-This is basic Angular setup with the minimum required dependencies
 
 Running the app
 ---------------
